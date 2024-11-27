@@ -1,0 +1,1 @@
+/home/PERSONALE/mirko.martini3/01_2024/03_scripts/SNAP.sh
