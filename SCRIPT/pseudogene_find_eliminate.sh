@@ -1,0 +1,1 @@
+/home/PERSONALE/mirko.martini3/00_Lab_CompGeno/2024/05_OG.Inference_Phylogenomic/pseudogene_find_eliminate.sh
