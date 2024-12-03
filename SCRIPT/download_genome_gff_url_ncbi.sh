@@ -1,0 +1,1 @@
+/home/PERSONALE/mirko.martini3/00_Lab_CompGeno/2024/05_OG.Inference_Phylogenomic/download_genome_gff_url_ncbi.sh
