@@ -19,6 +19,6 @@ for orthogroup in *_trimmed.fa; do
 			fi
 		done < <(sed 's/-//g' "$orthogroup")
 		#retrive che complete sequence from where original orthgroups are stored
-		sequence=$(grep -A1 "$maxname" /home/STUDENTI/erika.bellini/Lab_inferno/02analisi/04comparo/03Orthogroups/01OrthoFinder/Results_Dec06/Orthogroup_Sequences/${orthoname}.fa | tail -n1)
+		sequence=$(grep -A1 "$maxname" /home/STUDENTI/erika.bellini/Lab_inferno/02analisi/04comparo/03Orthogroups/01OrthoFinder/Results_Dec06/OL_Orthogroup_Sequences/${orthoname}.fa | tail -n1)
 		printf ">%s@%s\n%s\n" "$orthoname" "$maxname" "$sequence" >> longest_protein_OGs.txt
 done
